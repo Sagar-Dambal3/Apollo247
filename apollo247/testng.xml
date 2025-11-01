@@ -1,8 +1,14 @@
 
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="TestA">
     <classes>
       <class name="com.apollo247.testscript.PharmacyModule"/>
     </classes>
-  </test> <!-- Test -->
+  </test>
+  
+	<test thread-count="5" name="TestB">
+    <classes>
+      <class name="com.apollo247.testscript.GetFbTitle"/>
+    </classes>
+  </test>
 </suite> <!-- Suite -->
